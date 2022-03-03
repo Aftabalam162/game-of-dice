@@ -16,32 +16,32 @@ if (imgNumOne == imgNumTwo){
 
 function imgShowOne(){
     if (imgNumOne == 1){
-        document.querySelector(".boxOne img").setAttribute("src", "images/dice1.png");
+        document.querySelector(".boxOne img").setAttribute("src", "assets/dice1.png");
     } else if (imgNumOne == 2){
-        document.querySelector(".boxOne img").setAttribute("src", "images/dice2.png");
+        document.querySelector(".boxOne img").setAttribute("src", "assets/dice2.png");
     } else if (imgNumOne == 3){
-        document.querySelector(".boxOne img").setAttribute("src", "images/dice3.png");
+        document.querySelector(".boxOne img").setAttribute("src", "assets/dice3.png");
     } else if (imgNumOne == 4){
-        document.querySelector(".boxOne img").setAttribute("src", "images/dice4.png");
+        document.querySelector(".boxOne img").setAttribute("src", "assets/dice4.png");
     } else if (imgNumOne == 5){
-        document.querySelector(".boxOne img").setAttribute("src", "images/dice5.png");
+        document.querySelector(".boxOne img").setAttribute("src", "assets/dice5.png");
     } else {
-        document.querySelector(".boxOne img").setAttribute("src", "images/dice6.png");
+        document.querySelector(".boxOne img").setAttribute("src", "assets/dice6.png");
     }
 }
 
 function imgShowTwo(){
     if (imgNumTwo == 1){
-        document.querySelector(".boxTwo img").setAttribute("src", "images/dice1.png");
+        document.querySelector(".boxTwo img").setAttribute("src", "assets/dice1.png");
     } else if (imgNumTwo == 2){
-        document.querySelector(".boxTwo img").setAttribute("src", "images/dice2.png");
+        document.querySelector(".boxTwo img").setAttribute("src", "assets/dice2.png");
     } else if (imgNumTwo == 3){
-        document.querySelector(".boxTwo img").setAttribute("src", "images/dice3.png");
+        document.querySelector(".boxTwo img").setAttribute("src", "assets/dice3.png");
     } else if (imgNumTwo == 4){
-        document.querySelector(".boxTwo img").setAttribute("src", "images/dice4.png");
+        document.querySelector(".boxTwo img").setAttribute("src", "assets/dice4.png");
     } else if (imgNumTwo == 5){
-        document.querySelector(".boxTwo img").setAttribute("src", "images/dice5.png");
+        document.querySelector(".boxTwo img").setAttribute("src", "assets/dice5.png");
     } else {
-        document.querySelector(".boxTwo img").setAttribute("src", "images/dice6.png");
+        document.querySelector(".boxTwo img").setAttribute("src", "assets/dice6.png");
     }
 }
